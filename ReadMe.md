@@ -1,1 +1,1 @@
-This Website Goes Through JSON That Contains A Decision Tree (pun intended)
+This website goes through JSON that contains a decision tree (pun intended).
