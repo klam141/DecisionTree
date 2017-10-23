@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Load JSON with Ajax</title>
+	<link rel="stylesheet" type="text/css" href="style/styles.css">
+</head>
+<body>
+
+	<header>
+		<h1>The Mystery of Trees</h1>
+	</header>
+	
+	<main>
+		
+		
+		<div id="outputBox">
+			<h2>Branches</h2>
+			<ol id="output"></ol>
+			<div id="answer"></div>
+		</div>
+		
+	
+		<div id="app">
+			<h2>Tree Classification</h2>
+			<div id="content">
+				<!-- content will be inserted here by JavaScript here -->
+				<div id="decision1">
+					<button id="decisionButton1" class="decisionButton" value="0">button1</button>
+				</div> 
+				<div id="decision2">
+					<button id="decisionButton2" class="decisionButton" value="1">button2</button>
+				</div> 
+			</div>
+			<div>
+				<button id="resetButton">Reset</button>
+			</div>
+		</div>
+	</main>
+	
+	<div id="clearBox"></div>
+	
+	<footer>
+		&copy; Trees 2017
+	</footer>
+
+
+
+    <!-- always load all html before calling JavaScipt that acts on it -->
+    <script src="TreesJS/funcy.js"></script>
+</body>
+</html>
